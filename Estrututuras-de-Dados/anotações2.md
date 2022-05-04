@@ -42,5 +42,8 @@ _* Pesquisar sobre linguagens compiladas vs linguagens interpretadas_
 #### Opções de tipos
 - Textual
 - Numeral
+  -  byte: -128 até 127 -> byte b = 15;
+  -   short: -32768 até 32767 -> short s = -15785;
+  -  int: -2147483648 até 2147483647 -> int i = 8515785;
 - Lógico
 - Objeto
