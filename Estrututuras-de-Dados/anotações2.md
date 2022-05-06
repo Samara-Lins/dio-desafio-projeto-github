@@ -41,9 +41,31 @@ _* Pesquisar sobre linguagens compiladas vs linguagens interpretadas_
 
 #### Opções de tipos
 - Textual
+  -  char: caracteres de 16-bit unicode -> char c = '\u0084'; ou char c = 'T';
+  -  String: um tipo "especial" -> String s = "T";
 - Numeral
   -  byte: -128 até 127 -> byte b = 15;
   -   short: -32768 até 32767 -> short s = -15785;
   -  int: -2147483648 até 2147483647 -> int i = 8515785;
-- Lógico
+  -  long: -9223372036854775808 até 9223372036854775807 -> long l = 5938515785L; 
+  -  float: +-3.40282347E + 38F -> float f = 3.14...(f);
+  -  double:+-1.79769313486231570E + 308 -> double d = 3.14...(d)
+- Lógico 
+  -  boolean: true ou false -> boolean s = false;
 - Objeto
+
+## Operadores
+São símbolos especiais capazes de realizar ações específicas em um, dois ou mais operandos e, em seguida, retornar um resultado.
+
+### Tipos de operadores
+- Pós-fixado: exp++ ou exp--;
+- Prefixado: ++exp ou --exp
+- Aritmético: +,-,*,/ e %;
+- Atribuição: =, +=, *=, /= e %=
+
+## Casting
+*Definição: *É a transformação de determinada variável de um tipo menos específico para um tipo mais específico ou vice-versa.
+
+### Tipos
+- Upcast (implícito)
+- Downcast (explícito)
